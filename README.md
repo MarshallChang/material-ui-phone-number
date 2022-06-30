@@ -15,13 +15,13 @@ Uses @material-ui/core/TextField for rendering the phone input
 ## Installation
 
 ```shell-script
-npm install material-ui-phone-number --save
+npm install material-ui-phone-number-react-18 --save
 ```
 
 ## Usage
 
 ```jsx
-import MuiPhoneNumber from "material-ui-phone-number";
+import MuiPhoneNumber from "material-ui-phone-number-react-18";
 
 React.render(
   <MuiPhoneNumber defaultCountry={"us"} onChange={handleOnChange} />,
