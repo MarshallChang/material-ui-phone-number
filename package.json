@@ -1,6 +1,6 @@
 {
   "name": "material-ui-phone-number-react-18",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A material-ui react component to format phone numbers. Based on react-phone-input-2,change react version 18 and fix chinese mobile format",
   "main": "dist/index.js",
   "types": "index.d.ts",
