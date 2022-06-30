@@ -1,4 +1,9 @@
 # material-ui-phone-number
+
+## fork from [alexplumb/material-ui-phone-number](https://github.com/alexplumb/material-ui-phone-number)
+
+## change react version 18 and fix chinese mobile format
+
 Highly customizable phone input component with auto formatting. Based on the wonderful [react-phone-input-2](https://github.com/bl00mber/react-phone-input-2) package.
 
 It looks like this, but in Material Design:
@@ -16,26 +21,27 @@ npm install material-ui-phone-number --save
 ## Usage
 
 ```jsx
-import MuiPhoneNumber from 'material-ui-phone-number';
+import MuiPhoneNumber from "material-ui-phone-number";
 
 React.render(
-  <MuiPhoneNumber defaultCountry={'us'} onChange={handleOnChange}/>,
-  document.getElementById('root')
+  <MuiPhoneNumber defaultCountry={"us"} onChange={handleOnChange} />,
+  document.getElementById("root")
 );
 ```
 
-Your handler for the ``onChange`` event should expect a string as
+Your handler for the `onChange` event should expect a string as
 parameter, where the value is that of the entered phone number. For example:
 
 ```jsx
 function handleOnChange(value) {
-   this.setState({
-      phone: value
-   });
+  this.setState({
+    phone: value,
+  });
 }
 ```
 
 ## Options
+
 <table>
   <tr>
     <th> Name </th>
@@ -150,19 +156,15 @@ function handleOnChange(value) {
 </table>
 
 Regions selected: {'europe'}
+
 ```jsx
-<MuiPhoneInput
-  defaultCountry='it'
-  regions={'europe'}
-/>
+<MuiPhoneInput defaultCountry="it" regions={"europe"} />
 ```
 
 Regions selected: {['north-america', 'carribean']}
+
 ```jsx
-<MuiPhoneInput
-  defaultCountry='ca'
-  regions={['north-america', 'carribean']}
-/>
+<MuiPhoneInput defaultCountry="ca" regions={["north-america", "carribean"]} />
 ```
 
 ### Localization
