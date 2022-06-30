@@ -1,7 +1,7 @@
 {
-  "name": "material-ui-phone-number",
+  "name": "material-ui-phone-number-react-18",
   "version": "3.0.0",
-  "description": "A material-ui react component to format phone numbers. Based on react-phone-input-2",
+  "description": "A material-ui react component to format phone numbers. Based on react-phone-input-2,change react version 18 and fix chinese mobile format",
   "main": "dist/index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexplumb/material-ui-phone-number"
+    "url": "https://github.com/marshallchang/material-ui-phone-number"
   },
   "keywords": [
     "material",
@@ -22,9 +22,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexplumb/material-ui-phone-number/issues"
+    "url": "https://github.com/marshallchang/material-ui-phone-number/issues"
   },
-  "homepage": "https://github.com/alexplumb/material-ui-phone-number",
+  "homepage": "https://github.com/marshallchang/material-ui-phone-number",
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/plugin-proposal-class-properties": "^7.14.5",
@@ -68,7 +68,7 @@
     "@mui/styles": "^5.0.0",
     "clsx": "^1.1.1",
     "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }
